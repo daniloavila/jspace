@@ -1,8 +1,10 @@
-package br.com.jspace.repositories;
+package br.jspace.repositories;
 
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
+
+import br.com.jspace.repositories.UserRepositoryImpl;
 
 public class UserRepositoryImplTest {
 

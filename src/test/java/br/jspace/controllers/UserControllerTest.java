@@ -1,8 +1,10 @@
-package br.com.jspace.controllers;
+package br.jspace.controllers;
 
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
+
+import br.com.jspace.controllers.UserController;
 
 public class UserControllerTest {
 
