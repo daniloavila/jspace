@@ -7,17 +7,6 @@
 	<script type="text/javascript" src="<c:url value="/scripts/uploadify/jquery.uploadify.min.js"/>"></script>
 </head>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $('#file_upload').uploadify({
-    'uploader'  : '/scripts/uploadify/uploadify.swf',
-    'script'    : '/scripts/uploadify/uploadify.php',
-    'cancelImg' : '/scripts/uploadify/cancel.png',
-    'folder'    : '/scripts/uploadify/upload',
-    'auto'      : true
-  });
-});
-</script>
 <body>
 	<c:forEach var="error" items="${errors}">
 	    ${error.category} - ${error.message}<br />
